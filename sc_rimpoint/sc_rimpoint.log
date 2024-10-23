@@ -262,3 +262,141 @@ Level flags = 0
 Total triangle count: 1310
 Writing d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
 1 second elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\git\vmfs\sc_rimpoint\sc_rimpoint.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\git\vmfs\sc_rimpoint\sc_rimpoint.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_borealis01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_borealis01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47619 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_desk001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_desk001a.mdl"!
+Error! prop_static using model "models/props_interiors/vendingmachinesoda01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/vendingmachinesoda01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 75 texinfos to 34
+Reduced 24 texdatas to 16 (817 bytes to 566)
+Writing d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
+reading d:\git\vmfs\sc_rimpoint\sc_rimpoint.prt
+ 227 portalclusters
+ 677 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 158 visible clusters (0.45%)
+Total clusters visible: 34933
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 227
+visdatasize:15136  compressed from 14528
+writing d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
+PREP OK
+580 faces
+417592 square feet [60133376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+580 patches before subdivision
+22092 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 728356, max 272
+transfer lists:   5.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5238, 3423, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1535, 366, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(508, 45, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(179, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(66, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(25, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                129/16384        1548/196608   ( 0.8%) 
+brushsides             774/163840       6192/1310720  ( 0.5%) 
+planes                 164/65536        3280/1310720  ( 0.3%) 
+vertexes               886/65536       10632/786432   ( 1.4%) 
+nodes                  494/65536       15808/2097152  ( 0.8%) 
+texinfos                34/16384        2448/1179648  ( 0.2%) 
+texdata                 16/8192          512/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  580/65536       32480/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              423/65536       23688/3670016  ( 0.6%) 
+leaves                 505/65536       16160/2097152  ( 0.8%) 
+leaffaces              678/65536        1356/131072   ( 1.0%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4323/512000      17292/2048000  ( 0.8%) 
+edges                 2522/256000      10088/1024000  ( 1.0%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             70/32768         700/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           948/65536        1896/131072   ( 1.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      317596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15136/16777216 ( 0.1%) 
+entdata               [variable]        6880/393216   ( 1.7%) 
+LDR ambient table      505/65536        2020/262144   ( 0.8%) 
+HDR ambient table      505/65536        2020/262144   ( 0.8%) 
+LDR leaf ambient      3727/65536      104356/1835008  ( 5.7%) 
+HDR leaf ambient       505/65536       14140/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1022     ( 0.1%) 
+pakfile               [variable]       20516/0        ( 0.0%) 
+physics               [variable]       47619/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1471
+Writing d:\git\vmfs\sc_rimpoint\sc_rimpoint.bsp
+1 second elapsed
